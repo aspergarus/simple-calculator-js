@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+button {
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 4px;
+	text-decoration:none;
+}
+

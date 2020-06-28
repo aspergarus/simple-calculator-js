@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+button {
+    box-shadow: 3px 5px 10px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:42px;
+    border:3px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:28px;
+    padding:32px 4px;
+    text-decoration:none;
+    text-shadow:7px 21px 13px #ffee66;
+    outline: none;
+}
+button:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffab23;
+}
+button:active {
+    position:relative;
+    top:1px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons/default.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div class="sidebar">
+        <select class="sidebar-content" id='styles-selector'>
+            <option>Default</option>
+            <option>Orange</option>
+            <option>Green</option>
+            <option>Creme</option>
+            <option>Blue</option>
+            <option>Bubble</option>
+            <option>Sun</option>
+            <option>Rose</option>
+            <option>Real3d</option>
+        </select>
+    </div>
+    <div class="sidebar-activate">
+        <span>☰</span>
+    </div>
+    <main>
+        <input type="number" name="result" id="result" readonly>
+
+        <button class="number"><span>7</span></button>
+        <button class="number"><span>8</span></button>
+        <button class="number"><span>9</span></button>
+        <button class="op"><span>+</span></button>
+
+        <button class="number"><span>4</span></button>
+        <button class="number"><span>5</span></button>
+        <button class="number"><span>6</span></button>
+        <button class="op"><span>-</span></button>
+
+        <button class="number"><span>1</span></button>
+        <button class="number"><span>2</span></button>
+        <button class="number"><span>3</span></button>
+        <button class="op"><span>*</span></button>
+
+        <button id="cancel"><span>C</span></button>
+        <button class="number"><span>0</span></button>
+        <button id="run"><span>=</span></button>
+        <button class="op"><span>/</span></button>
+    </main>
+    <script src="script.js"></script>
+    <script src="changeStyles.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 980px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+#result {
+    grid-column-start: 1;
+    grid-column-end: end;
+    height: 3rem;
+    font-size: 24px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: right;
+}
+
+.sidebar {
+    width: 0%;
+    position: fixed;
+    height: 100%;
+    transition: 1s ease;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+.sidebar-activated {
+    width: 5%;
+}
+
+.sidebar-content {
+    position: absolute;
+    right: 10%;
+    top: 25px;
+}
+
+.sidebar-activate {
+    width: 1%;
+    position: fixed;
+    height: 100%;
+    line-height: 100%;
+    transition: 1s ease;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    color: #FFF;
+}
+
+.sidebar-activate span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s ease;
+}
+
+.sidebar-activate-activated {
+    left: 5%;
+}
+
+.sidebar-activate-activated span {
+    transform: translateY(-50%) rotate(0.25turn);
+}
