@@ -4,4 +4,4 @@ Just open index.html, you don't need else anything to run it.
 
 ## Demo
 
-https://mustafa1453.github.io/simple-calculator-js/
+Demo (https://aspergarus.github.io/simple-calculator-js/)
